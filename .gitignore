@@ -1,0 +1,10 @@
+# 运行期与私有数据（不纳入仓库）
+data/raw/
+data/index/
+.cache/
+.venv/
+__pycache__/
+*.pyc
+eval_full_run*.log
+streamlit.log
+rebuild.log

@@ -1,0 +1,30 @@
+# 课问 · 课程知识问答与复习助手 —— Python 依赖
+# 安装：python -m pip install -r requirements.txt
+#
+# 说明：这里只列直接依赖，版本留空表示用最新稳定版。
+# 出问题时可在这里钉死版本号，例如 chromadb==0.5.23
+
+# --- 界面 ---
+streamlit
+
+# --- 大模型调用（本地 Ollama 服务）---
+ollama
+
+# --- 向量模型 / 重排模型 ---
+sentence-transformers
+
+# --- 向量库（嵌入式，无需 Docker）---
+chromadb
+
+# --- 关键词检索 ---
+rank_bm25
+jieba
+
+# --- 文档解析（全部 MIT/BSD，刻意避开 AGPL 的 PyMuPDF）---
+pdfplumber
+python-pptx
+python-docx
+
+# --- 数值与进度条 ---
+numpy
+tqdm

@@ -1,0 +1,104 @@
+{"question": "什么是哈夫曼树", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 13}, {"source": "第六章-树和二叉树05-.pptx", "page": 17}], "type": "answerable", "category": "定义题", "reference": "带权路径长度最短的二叉树"}
+{"question": "什么是前缀码", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 32}], "type": "answerable", "category": "定义题", "reference": "任一个编码都不是其他任何编码的前缀"}
+{"question": "为什么哈夫曼编码一定是前缀码", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 33}], "type": "answerable", "category": "条件题", "reference": "哈夫曼编码都对应终点为叶子的路径，字符不可能出现在其他字符路径的开头"}
+{"question": "n 个叶子的哈夫曼树一共有多少个结点", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 23}, {"source": "第六章-树和二叉树05-.pptx", "page": 24}], "type": "answerable", "category": "条件题", "reference": "2n-1 个，因为没有度为 1 的结点"}
+{"question": "哈夫曼树在计算机里是怎么存的", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 23}, {"source": "第六章-树和二叉树05-.pptx", "page": 24}], "type": "answerable", "category": "术语题", "reference": "大小为 2n-1 的一维数组，静态三叉链表"}
+{"question": "哈夫曼编码有什么用", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 35}], "type": "answerable", "category": "定义题", "reference": "得到平均长度最短的编码，用于编码技术"}
+{"question": "用哈夫曼编码能省多少空间", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 38}, {"source": "第六章-树和二叉树05-.pptx", "page": 45}], "type": "answerable", "category": "条件题", "reference": "1000 条指令定长编码 3000 位，哈夫曼编码明显更少"}
+{"question": "ZIP 压缩软件用的是什么原理", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 45}], "type": "answerable", "category": "条件题", "reference": "对重复出现的数据用短码表示，哈夫曼编码压缩"}
+{"question": "构造哈夫曼树的算法是怎么做的", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 26}], "type": "answerable", "category": "术语题", "reference": "CrtHuffmanTree，w[] 存放 n 个权值"}
+{"question": "求哈夫曼编码是从叶子往根还是从根往叶子", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 40}], "type": "answerable", "category": "术语题", "reference": "从叶子结点到根，逆向求每个字符的哈夫曼编码"}
+{"question": "这门课讲过图的遍历算法吗", "gold": [], "type": "unanswerable"}
+{"question": "这门课有讲快速排序吗", "gold": [], "type": "unanswerable"}
+{"question": "什么是二叉树", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 42}], "type": "answerable", "category": "定义题", "reference": "每个结点度不大于2、孩子结点次序不能颠倒的树型结构"}
+{"question": "二叉树有哪些重要性质", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 46}, {"source": "第六章-树和二叉树01-.pptx", "page": 48}], "type": "answerable", "category": "术语题", "reference": "性质1-5：第i层至多2^(i-1)个结点等"}
+{"question": "满二叉树和完全二叉树是一回事吗", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 46}], "type": "answerable", "category": "对比题"}
+{"question": "二叉树用什么方式存储比较好", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 9}, {"source": "第六章-树和二叉树02-.pptx", "page": 10}], "type": "answerable", "category": "对比题", "reference": "顺序存储（完全二叉树）与链式存储（三域结点）"}
+{"question": "二叉树的遍历有哪几种方式", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 16}], "type": "answerable", "category": "定义题", "reference": "先序DLR、中序LDR、后序LRD"}
+{"question": "先序遍历的递归过程是怎么写的", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 21}], "type": "answerable", "category": "术语题"}
+{"question": "怎么把递归算法改写成不用递归的版本", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 7}, {"source": "第六章-树和二叉树03-.pptx", "page": 11}], "type": "answerable", "category": "条件题", "reference": "采用工作栈消除递归"}
+{"question": "森林的遍历和二叉树的遍历有什么对应关系", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 41}], "type": "answerable", "category": "对比题", "reference": "森林的先/中/后序遍历对应相应二叉树的先/中/后序"}
+{"question": "树的度数最大是多少，和孩子结点有什么讲究", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 42}], "type": "answerable", "category": "条件题"}
+{"question": "这门课讲过红黑树吗", "gold": [], "type": "unanswerable"}
+{"question": "哈夫曼树能用来给数据库做索引吗", "gold": [], "type": "unanswerable"}
+{"question": "树的子树有什么特点", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 10}], "type": "answerable", "category": "定义题", "reference": "子树互不相交"}
+{"question": "什么叫做森林", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 22}], "type": "answerable", "category": "定义题", "reference": "m棵互不相交的树的集合"}
+{"question": "线索和线索链表分别是什么", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 31}], "type": "answerable", "category": "定义题", "reference": "指向前驱后继的指针叫线索；由带线索的二叉链表组成"}
+{"question": "一个结点什么时候算是另一个结点的祖先", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 22}], "type": "answerable", "category": "条件题"}
+{"question": "二叉树的第 i 层最多能有多少个结点", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 46}], "type": "answerable", "category": "条件题", "reference": "至多 2^(i-1) 个"}
+{"question": "只知道遍历序列，能把二叉树重新建立出来吗", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 37}, {"source": "第六章-树和二叉树02-.pptx", "page": 38}], "type": "answerable", "category": "条件题", "reference": "用小圆点表示空子树，按先序序列建立"}
+{"question": "要按树状横向打印二叉树，应该用哪种遍历", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 46}, {"source": "第六章-树和二叉树02-.pptx", "page": 47}], "type": "answerable", "category": "条件题", "reference": "逆中序遍历（先右子树再根再左子树）"}
+{"question": "消除递归时为什么要借助工作栈", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 7}, {"source": "第六章-树和二叉树03-.pptx", "page": 8}], "type": "answerable", "category": "条件题", "reference": "递归无法直接转循环时，用栈保存返回时的信息"}
+{"question": "中序遍历的非递归算法时间复杂度是多少", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 22}], "type": "answerable", "category": "条件题", "reference": "O(n)，每个结点恰好进栈出栈一次"}
+{"question": "线索二叉树的结点为什么要增加两个标志域", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 30}], "type": "answerable", "category": "条件题", "reference": "区分孩子指针与前驱后继线索"}
+{"question": "中序线索化是按照什么方式实现的", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 35}, {"source": "第六章-树和二叉树03-.pptx", "page": 36}], "type": "answerable", "category": "条件题", "reference": "按中序递归遍历框架，加线索操作就是访问结点操作"}
+{"question": "在线索二叉树里怎么找到一个结点的中序前驱", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 42}, {"source": "第六章-树和二叉树03-.pptx", "page": 43}], "type": "answerable", "category": "条件题", "reference": "左子树的最右下端结点"}
+{"question": "遍历中序线索二叉树还需要栈吗", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 52}, {"source": "第六章-树和二叉树03-.pptx", "page": 54}], "type": "answerable", "category": "条件题", "reference": "不需要，反复找后继即可"}
+{"question": "一棵树要怎么改造才能变成二叉树", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 19}, {"source": "第六章-树和二叉树04-.pptx", "page": 20}], "type": "answerable", "category": "条件题", "reference": "相邻兄弟加线、只保留与第一个孩子的连线、顺时针旋转"}
+{"question": "森林是怎么转换成二叉树的", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 24}, {"source": "第六章-树和二叉树04-.pptx", "page": 27}], "type": "answerable", "category": "条件题", "reference": "各树转二叉树后，把根用右链相连"}
+{"question": "拿到一棵二叉树怎么还原出原来的树", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 29}], "type": "answerable", "category": "条件题", "reference": "若结点是双亲的左孩子，把它的右链都与双亲相连"}
+{"question": "先序遍历和中序遍历的访问顺序有什么不同", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 21}, {"source": "第六章-树和二叉树02-.pptx", "page": 23}], "type": "answerable", "category": "对比题", "reference": "先序是根左右，中序是左根右"}
+{"question": "统计二叉树叶子结点个数有哪两种思路", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 34}, {"source": "第六章-树和二叉树02-.pptx", "page": 35}], "type": "answerable", "category": "对比题", "reference": "遍历时判断计数；分治法左右子树叶子数相加"}
+{"question": "交换二叉树的左右子树用哪种遍历实现比较合适", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 49}, {"source": "第六章-树和二叉树02-.pptx", "page": 50}], "type": "answerable", "category": "对比题"}
+{"question": "后序遍历的非递归算法为什么比中序的复杂", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 23}], "type": "answerable", "category": "对比题", "reference": "后序要求左右子树都访问完才能访问根，需要判断标志"}
+{"question": "具有 n 个结点的完全二叉树的深度是多少", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 4}], "type": "answerable", "category": "术语题", "reference": "⌊log2 n⌋ + 1"}
+{"question": "二叉链表的结点里都有哪几个域", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 11}], "type": "answerable", "category": "术语题", "reference": "数据域、左孩子域、右孩子域"}
+{"question": "中序遍历是按什么顺序访问结点的", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 23}], "type": "answerable", "category": "术语题", "reference": "左子树、根、右子树"}
+{"question": "树的双亲表示法是怎么存储结点的", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 12}], "type": "answerable", "category": "术语题", "reference": "连续空间存结点，附设指示双亲位置的指示器"}
+{"question": "什么是孩子兄弟表示法", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 15}, {"source": "第六章-树和二叉树04-.pptx", "page": 16}], "type": "answerable", "category": "术语题", "reference": "两个链域分别指向第一个孩子和下一个兄弟"}
+{"question": "这门课讲过堆和堆排序吗", "gold": [], "type": "unanswerable"}
+{"question": "这门课有讲 AVL 树的旋转操作吗", "gold": [], "type": "unanswerable"}
+{"question": "这门课讲过并查集吗", "gold": [], "type": "unanswerable"}
+{"question": "Dijkstra 最短路径算法在课件里吗", "gold": [], "type": "unanswerable"}
+{"question": "哈夫曼编码能用来做数据加密吗", "gold": [], "type": "unanswerable"}
+{"question": "这门课讲过二阶常系数方程的解法吗", "gold": [], "type": "unanswerable", "category": "无答案题"}
+{"question": "数据结构里的树可以一个结点都没有吗？非空树的根有什么特点？", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 10}], "type": "answerable", "category": "定义题"}
+{"question": "结点的度和树的度有什么区别？树的度是把所有结点的度加起来吗？", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 22}], "type": "answerable", "category": "对比题"}
+{"question": "叶结点和分支结点怎么区分？它们的度分别有什么特点？", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 22}], "type": "answerable", "category": "对比题"}
+{"question": "树的根算第几层？如果最深的结点在第4层，这棵树的高度是多少？", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 22}], "type": "answerable", "category": "跨页题"}
+{"question": "有序树里的“有序”指的是什么顺序？", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 22}], "type": "answerable", "category": "术语题"}
+{"question": "对树里的根结点调用 Parent(Tree, X)，会返回什么？", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 36}], "type": "answerable", "category": "条件题"}
+{"question": "对叶结点调用 FirstChild(Tree, X)，会返回什么？", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 36}], "type": "answerable", "category": "条件题"}
+{"question": "把 Child 这棵树插到结点 p 下面之前，InsertChild 要满足哪些条件？", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 36}], "type": "answerable", "category": "条件题"}
+{"question": "二叉树是不是每个结点都必须有两个孩子？它的定义有什么要求？", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 42}], "type": "answerable", "category": "定义题"}
+{"question": "一棵非空二叉树有8个度为2的结点，它有几个叶结点？用哪个性质算？", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 48}], "type": "answerable", "category": "条件题"}
+{"question": "满二叉树和完全二叉树有什么区别？完全二叉树一定是满的吗？", "gold": [{"source": "第六章-树和二叉树01-.pptx", "page": 46}], "type": "answerable", "category": "对比题"}
+{"question": "有10个结点的完全二叉树，深度是多少？", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 4}], "type": "answerable", "category": "条件题"}
+{"question": "一棵有10个结点的完全二叉树按层从1编号，第5号结点有哪些孩子？", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 4}], "type": "answerable", "category": "条件题"}
+{"question": "二叉树用顺序存储时怎么安排位置？为什么单支树会浪费很多空间？", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 9}], "type": "answerable", "category": "跨页题"}
+{"question": "二叉树的三叉链表里，Parent 这个域是干什么的？", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 11}], "type": "answerable", "category": "术语题"}
+{"question": "有n个结点的非空二叉树用二叉链表存储，会有多少个空指针？为什么？", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 30}], "type": "answerable", "category": "条件题"}
+{"question": "什么叫遍历二叉树？同一个结点可以重复访问吗？", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 29}], "type": "answerable", "category": "定义题"}
+{"question": "先序、中序、后序里的 DLR、LDR、LRD 分别是什么意思？", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 20}], "type": "answerable", "category": "术语题"}
+{"question": "写程序输出二叉树的叶结点时，只判断左孩子为空够不够？", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 32}], "type": "answerable", "category": "条件题"}
+{"question": "按树高的递归定义写后序求高度时，为什么要先算左右子树？空树返回几？", "gold": [{"source": "第六章-树和二叉树02-.pptx", "page": 40}, {"source": "第六章-树和二叉树02-.pptx", "page": 42}], "type": "answerable", "category": "跨页题"}
+{"question": "树的带权路径长度 WPL 怎么算？这里要算哪些结点？", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 13}, {"source": "第六章-树和二叉树05-.pptx", "page": 16}], "type": "answerable", "category": "定义题"}
+{"question": "哈夫曼树为什么也叫最优二叉树？它最优的是哪个量？", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 17}], "type": "answerable", "category": "定义题"}
+{"question": "树的路径长度 PL 和带权路径长度 WPL，统计范围和算法有什么不同？", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 13}, {"source": "第六章-树和二叉树05-.pptx", "page": 16}], "type": "answerable", "category": "对比题"}
+{"question": "完全二叉树的路径长度最小，能不能说明它的带权路径长度也一定最小？", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 17}], "type": "answerable", "category": "对比题"}
+{"question": "哈夫曼树每轮合并哪两棵树？在数组实现里，合并后要更新哪些信息？", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 26}], "type": "answerable", "category": "跨页题"}
+{"question": "课件里7种指令的例子，1000条指令用哈夫曼编码比定长编码少多少位？平均每条几位？", "gold": [{"source": "第六章-树和二叉树05-.pptx", "page": 35}, {"source": "第六章-树和二叉树05-.pptx", "page": 37}, {"source": "第六章-树和二叉树05-.pptx", "page": 38}], "type": "answerable", "category": "跨页题"}
+{"question": "为什么有的递归可以直接换成循环，有的就非得用栈", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 5}], "type": "answerable", "category": "条件题"}
+{"question": "递归一层层进去和一层层退出来的时候，分别都要做哪些事", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 7}, {"source": "第六章-树和二叉树03-.pptx", "page": 8}], "type": "answerable", "category": "条件题"}
+{"question": "中序遍历的非递归算法里，工作栈里到底存的是什么", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 11}, {"source": "第六章-树和二叉树03-.pptx", "page": 18}], "type": "answerable", "category": "术语题"}
+{"question": "二叉树的线索化到底是在干嘛", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 31}], "type": "answerable", "category": "定义题"}
+{"question": "线索二叉树里每个结点都加了 Ltag、Rtag，这俩是干嘛用的", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 30}], "type": "answerable", "category": "术语题"}
+{"question": "在中序线索树里怎么找一个结点的前驱", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 42}, {"source": "第六章-树和二叉树03-.pptx", "page": 43}], "type": "answerable", "category": "条件题"}
+{"question": "先序、中序、后序线索树里，找前驱和后继哪种最省事、哪种最麻烦", "gold": [{"source": "第六章-树和二叉树03-.pptx", "page": 47}, {"source": "第六章-树和二叉树03-.pptx", "page": 48}], "type": "answerable", "category": "对比题"}
+{"question": "只给先序序列和后序序列，能唯一确定一棵二叉树吗", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 2}], "type": "answerable", "category": "条件题"}
+{"question": "孩子兄弟表示法里那两个指针分别指向哪个结点", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 15}, {"source": "第六章-树和二叉树04-.pptx", "page": 16}], "type": "answerable", "category": "术语题"}
+{"question": "树转换成二叉树怎么操作，转换完左分支和右分支各代表原来树里的什么关系", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 19}, {"source": "第六章-树和二叉树04-.pptx", "page": 20}], "type": "answerable", "category": "条件题"}
+{"question": "把森林转换成二叉树的办法是什么", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 24}], "type": "answerable", "category": "定义题"}
+{"question": "拿到一棵二叉树，怎么把它还原回树或森林", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 29}], "type": "answerable", "category": "条件题"}
+{"question": "拿到转换后的二叉树，怎么判断它原来是一棵树还是森林", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 27}, {"source": "第六章-树和二叉树04-.pptx", "page": 42}], "type": "answerable", "category": "条件题"}
+{"question": "树的先根遍历和后根遍历分别是怎么走的", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 34}, {"source": "第六章-树和二叉树04-.pptx", "page": 36}], "type": "answerable", "category": "定义题"}
+{"question": "森林的中序遍历是怎么定义的", "gold": [{"source": "第六章-树和二叉树04-.pptx", "page": 41}], "type": "answerable", "category": "定义题"}
+{"question": "这门课讲过 Dijkstra 最短路径算法吗", "gold": [], "type": "unanswerable", "category": "无答案题"}
+{"question": "这门课讲过拓扑排序吗", "gold": [], "type": "unanswerable", "category": "无答案题"}
+{"question": "课件里讲过哈希表吗", "gold": [], "type": "unanswerable", "category": "无答案题"}
+{"question": "这门课讲过 KMP 字符串匹配吗", "gold": [], "type": "unanswerable", "category": "无答案题"}
+{"question": "这门课讲过 B 树吗", "gold": [], "type": "unanswerable", "category": "无答案题"}
+{"question": "这门课讲过平衡二叉树吗", "gold": [], "type": "unanswerable", "category": "无答案题"}
+{"question": "这门课讲过堆排序吗", "gold": [], "type": "unanswerable", "category": "无答案题"}
+{"question": "这门课讲过归并排序吗", "gold": [], "type": "unanswerable", "category": "无答案题"}
+{"question": "这门课讲过折半查找吗", "gold": [], "type": "unanswerable", "category": "无答案题"}

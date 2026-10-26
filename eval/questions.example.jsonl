@@ -1,0 +1,36 @@
+# 命令行用法
+#
+# 1) 把题目填好，放到 eval/questions.jsonl（不要改字段名）
+# 2) 一行一个 JSON，不要写成数组
+#
+# 字段说明
+#   question  : 学生会怎么问（写真实的口语问法，不要写成书面考卷）
+#   gold      : 正确答案所在的课件位置，可以多个；用解析出来的文件名，别写错
+#   type      : answerable（课件里有答案）/ unanswerable（课件里没有，测拒答）
+#   category  : 题型，用于按题型拆解指标。建议用这五类：
+#                 定义题 / 条件题 / 对比题 / 跨页题 / 术语题
+#   reference : 可选，参考答案，人工判分时当对照
+#
+# 为什么一定要写 category：
+#   `python -m src.eval --mode retrieve` 会按题型拆解 Recall@5，
+#   告诉你"提升到底来自哪类问题"。总体提升 3 个百分点说明不了什么，
+#   但"条件题 +18 个百分点、定义题 0"就能证明你的设计精确命中了
+#   词面不一致这个真实痛点——这是报告里最有说服力的一张表。
+#
+# 数量建议：可回答 100 题 + 无答案 20 题。三个人一天能搞定。
+#
+# 出题窍门：不要只出"定义题"——任何检索方法在定义题上都能命中，
+#   天花板效应会把方法差异全部抹平，实验就做不出结论。
+#   多出「条件题」「对比题」「术语编号题」，这三类最能区分方案优劣：
+#     · 条件题：答案常写成"如果…就…"，和问句词面对不上，考验语义检索
+#     · 对比题：答案分散在多处，考验多路召回
+#     · 术语题：含章节号/公式编号/专有名词，考验关键词匹配
+#   ⚠️ 标注 gold 页码时务必交叉核对——标错了，后面所有实验数据都是错的。
+
+{"question": "怎么判断模型是不是过拟合了", "gold": [{"source": "第1章-机器学习概述.pdf", "page": 3}], "type": "answerable", "category": "条件题", "reference": "训练集表现好但新样本表现差"}
+{"question": "k 折交叉验证具体怎么做", "gold": [{"source": "第1章-机器学习概述.pdf", "page": 4}], "type": "answerable", "category": "定义题"}
+{"question": "L1 和 L2 正则化到底差在哪", "gold": [{"source": "第2章-线性模型.pdf", "page": 6}], "type": "answerable", "category": "对比题"}
+{"question": "L1 正则化的公式是怎么写的", "gold": [{"source": "第2章-线性模型.pdf", "page": 6}], "type": "answerable", "category": "术语题"}
+{"question": "为什么现在都用 ReLU 不用 Sigmoid 了", "gold": [{"source": "第3章-神经网络基础.pdf", "page": 12}], "type": "answerable", "category": "对比题"}
+{"question": "对比第 2 章和第 4 章对参数更新的说法", "gold": [{"source": "第2章-线性模型.pdf", "page": 5}, {"source": "第4章-优化算法.pdf", "page": 15}], "type": "answerable", "category": "跨页题"}
+{"question": "这门课讲过量子计算吗", "gold": [], "type": "unanswerable"}
